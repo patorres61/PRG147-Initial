@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>PRG-147 Projects - Intro to JavaScript</title>
+    <meta charset="utf-8">
+
+    <meta name="description" content="MCC PRG-147 Intro to JavaScript by Phyllis Torres">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+    <!-- Link to Google Font Family -->
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+    <script type="text/javascript" src="jquery.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <header class="container w3-blue" id="head">
+
+        <h1 style="color:white;">Introduction to Javascript</h1>
+
+    </header>
+
+    <div class="container" id="one">
+
+        <h2>Let's Play Hide and Seek!</h2>
+
+        <!--The code in this section changes the display style for two div's - visible display = block
+            invisible display = none-->
+
+        <button type="button" style="align=center;" class="w3-btn w3-blue w3-text-shadow w3-xxlarge" onclick="document.getElementById('one').style.display='none';
+            document.getElementById('one-open').style.display='block';">
+            <b>Click Me</b>
+        </button>
+
+    </div>
+
+    <div class="container" style="backgroundcolor:rgba(227, 219, 198, 0.87);">
+
+        <!--The code in this section changes the visibility of both this and the above panels-->
+
+        <button type="button" id="one-open" class="w3-btn w3-blue w3-text-shadow w3-xxlarge" style="display:none;" onclick="document.getElementById('one').style.display='block'; ">
+            <b>+</b>
+        </button>
+
+    </div>
+
+    <div class="container" id="two">
+
+        <h2>Do you wish to know the time?</h2>
+
+        <!--On the button click, the code will display the date and time in the paragraph with the time ID -->
+
+        <button type="button" class="w3-btn w3-blue w3-text-shadow w3-xxlarge" onclick="document.getElementById('time').innerHTML=Date()">
+            <b>Click Me</b>
+        </button>
+
+        <p id="time"></p>
+
+    </div>
+
+    <div class="container" id="three">
+
+        <h2>May the Force be with You!</h2>
+
+        <!--The code here greets you as if you were a Jedi Knights  -->
+
+        <button type="button" class="w3-btn w3-text-shadow w3-xxlarge w3-blue" onclick="document.getElementById('greeting').innerHTML = 'Luke, I am your Father!';">
+            <b>Click Me</b>
+        </button>
+
+        <p id="greeting"></p>
+
+    </div>
+
+
+    <div class="container" id="mydiv">
+
+        <h2>Are your eyes deceiving you?</h2>
+
+        <!--The code here will change the div color on the button click  -->
+
+        <button class="w3-btn w3-text-shadow w3-xxlarge w3-blue" onclick="myFunction()">Click Me</button>
+
+
+    </div>
+
+    <script>
+        function myFunction() {
+            document.getElementById('mydiv').style.backgroundColor = "red";
+        }
+    </script>
+
+    <div class="footerinfo">
+
+        <footer>
+
+            <h3>Copyright 2016 ~ Phyllis Torres</h3>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

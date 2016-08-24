@@ -1,0 +1,58 @@
+/* Body style code */
+
+body {
+    background-color: rgba(227, 219, 198, 0.87);
+    background-size: cover;
+    color: #394059;
+    box-sizing: border-box;
+}
+
+
+/* Container style code */
+
+.container {
+    max-width: 1260px;
+    min-height: 10px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2em;
+    font-family: 'Exo 2';
+    background-color: seashell;
+}
+
+
+/* Heading style code */
+
+h1,
+h2 {
+    text-align: center;
+    color: #0e0e0f;
+    font-weight: 700;
+    font-size: 1.75em;
+    font-family: 'Philosopher';
+}
+
+h3 {
+    text-align: center;
+    color: #0e0e0f;
+    font-weight: 900;
+    font-size: 1em;
+    font-family: 'Philosopher';
+}
+
+
+/* Footer style code */
+
+.footerinfo {
+    font-size: 1em;
+    font-weight: 900;
+    max-width: 1260px;
+    min-height: 5px;
+    margin: 10px auto;
+    padding: 3px;
+    text-align: center;
+    font-family: 'Exo 2';
+    background-color: seashell;
+}
