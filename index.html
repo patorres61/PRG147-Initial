@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<!-- This code creates a portal page to Web 147 projects -->
 
-    <title>PRG-147 Projects - Intro to JavaScript</title>
+<head>
+    <title>PRG-147 Projects</title>
     <meta charset="utf-8">
 
-    <meta name="description" content="MCC PRG-147 Intro to JavaScript by Phyllis Torres">
+    <meta name="description" content="MCC PRG-147 JavaScript Projects completed by Phyllis Torres">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
     <!-- Link to Google Font Family -->
-    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet" type='text/css'>
-    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
 
     <link rel="stylesheet" href="style.css">
@@ -24,100 +24,207 @@
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
-    <script type="text/javascript" src="jquery.js"></script>
-
-
 
 </head>
 
 <body>
 
-    <header class="container w3-blue" id="head">
+    <!-- Uses a header that scrolls with the text, rather than staying locked at the top -->
+    <header id="top">
 
-        <h1 style="color:white;">Introduction to Javascript</h1>
+        <div class="container">
+            <h1 style="font-size:3em;">PRG-147 JavaScript Projects </h1>
+            <h1 style="font-size:2em;text-align:center;"> Phyllis Torres</h1>
+
+            <nav>
+                <a href="#mod1">Unit 1</a>
+                <a href="#mod2">Unit 2</a>
+                <a href="#mod3">Unit 3</a>
+                <a href="#mod4">Unit 4</a>
+                <a href="#mod5">Unit 5</a>
+                <a href="#mod6">Unit 6</a>
+                <a href="#mod7">Unit 7</a>
+                <a href="#mod8">Unit 8</a>
+                <a href="#mod9">Unit 9</a>
+                <a href="#mod10">Unit 10</a>
+                <a href="#mod11">Unit 11</a>
+                <a href="#mod12">Unit 12</a>
+                <a href="#mod13">Unit 13</a>
+                <a href="#mod14">Unit 14</a>
+                <a href="#mod15">Unit 15</a>
+                <a href="#mod16">Unit 16</a>
+            </nav>
+        </div>
 
     </header>
 
-    <div class="container" id="one">
+    <main>
 
-        <h2>Let's Play Hide and Seek!</h2>
+        <div class="container">
 
-        <!--The code in this section changes the display style for two div's - visible display = block
-            invisible display = none-->
+            <h2 id="mod1">Unit 1: JavaScript Basics</h2>
 
-        <button type="button" style="align=center;" class="w3-btn w3-blue w3-text-shadow w3-xxlarge" onclick="document.getElementById('one').style.display='none';
-            document.getElementById('one-open').style.display='block';">
-            <b>Click Me</b>
-        </button>
+            <!-- Link to project folders within my Prg147 top folder -->
 
-    </div>
+            <a href="js-intro/index.html" target="_blank">Initial JavaScript Program</a>
+            <p> This project required creating different divisions on a web page that use JavaScript coding. Requirements included buttons to make a division disappear and reappear, show date and time on a button click, show a greeting on a button click, and to change the color of a division. </p>
 
-    <div class="container" style="backgroundcolor:rgba(227, 219, 198, 0.87);">
+            <a href="js-math/index.html" target="_blank">Mathematics using JavaScript</a>
+            <p> This project required using JavaScript coding to compute mathematical equations. Requirements were to show examples for addition, subtraction, multiplication, division, division with a remainder, division with a rounded remainder, incrementing a number, and decrementing a number. </p>
 
-        <!--The code in this section changes the visibility of both this and the above panels-->
-
-        <button type="button" id="one-open" class="w3-btn w3-blue w3-text-shadow w3-xxlarge" style="display:none;" onclick="document.getElementById('one').style.display='block'; ">
-            <b>+</b>
-        </button>
-
-    </div>
-
-    <div class="container" id="two">
-
-        <h2>Do you wish to know the time?</h2>
-
-        <!--On the button click, the code will display the date and time in the paragraph with the time ID -->
-
-        <button type="button" class="w3-btn w3-blue w3-text-shadow w3-xxlarge" onclick="document.getElementById('time').innerHTML=Date()">
-            <b>Click Me</b>
-        </button>
-
-        <p id="time"></p>
-
-    </div>
-
-    <div class="container" id="three">
-
-        <h2>May the Force be with You!</h2>
-
-        <!--The code here greets you as if you were a Jedi Knights  -->
-
-        <button type="button" class="w3-btn w3-text-shadow w3-xxlarge w3-blue" onclick="document.getElementById('greeting').innerHTML = 'Luke, I am your Father!';">
-            <b>Click Me</b>
-        </button>
-
-        <p id="greeting"></p>
-
-    </div>
+            <div style="text-align:center;">
+                <a href="#top" style="color:#ffffff; font-size:1.2em;">Return to top</a>
+            </div>
+        </div>
 
 
-    <div class="container" id="mydiv">
+        <div class="container">
+            <h2 id="mod2">Unit 2: </h2>
 
-        <h2>Are your eyes deceiving you?</h2>
+            <!-- Link to project folders within my Prg147 top folder -->
 
-        <!--The code here will change the div color on the button click  -->
+            <a href="js-functions/index.html" target="_blank">JavaScript Functions</a>
+            <p>This project gave more practice in creating functions stored in a separate file. The goal was to create at least ten thumbnail images. When clicked on, the large image area would change to the selected image. Each image would display with a caption unique to that image. </p>
 
-        <button class="w3-btn w3-text-shadow w3-xxlarge w3-blue" onclick="myFunction()">Click Me</button>
+            <a href="js-events/index.html" target="_blank">JavaScript Events</a>
+            <p>JavaScript creates reactions to events on the webpage and different events can be programmed to trigger different reactions. Events include clicking, moving a mouse up, moving a mouse down while holding down the button, and moving the mouse away. Also, clicking, double-clicking or right-clicking may be used to trigger reactions. The requirements for this project were to create at least ten reactions to ten different events. </p>
+
+            <!--<a href="js-forms/index.html" target="_blank">JavaScript Forms</a>
+            <p>  </p>
+
+            -->
+
+            <div style="text-align:center;">
+                <a href="#top" style="color:#ffffff; font-size:1.2em;">Return to top</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 id="mod3">Unit 3: </h2>
 
 
-    </div>
+            <div style="text-align:center;">
+                <a href="#top" style="color:#ffffff; font-size:1.2em;">Return to top</a>
+            </div>
+        </div>
 
-    <script>
-        function myFunction() {
-            document.getElementById('mydiv').style.backgroundColor = "red";
-        }
-    </script>
+        <div class="container">
+            <h2 id="mod4">Unit 4: </h2>
 
-    <div class="footerinfo">
 
-        <footer>
+            <div style="text-align:center;">
+                <a href="#top" style="color:#ffffff; font-size:1.2em;">Return to top</a>
+            </div>
+        </div>
 
-            <h3>Copyright 2016 ~ Phyllis Torres</h3>
+        <div class="container">
+            <h2 id="mod5">Unit 5: </h2>
 
-        </footer>
 
-    </div>
+            <div style="text-align:center;">
+                <a href="#top" style="color:#ffffff; font-size:1.2em;">Return to top</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 id="mod6">Unit 6: </h2>
+
+
+            <div style="text-align:center;">
+                <a href="#top" style="color:#ffffff;font-size:1.2em;">Return to top</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 id="mod7">Unit 7: </h2>
+
+
+            <div style="text-align:center;">
+                <a href="#top" style="color:#ffffff;font-size:1.2em;">Return to top</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 id="mod8">Unit 8: </h2>
+
+
+            <div style="text-align:center;">
+                <a href="#top" style="color:#ffffff;font-size:1.2em;">Return to top</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 id="mod9">Unit 9: </h2>
+
+
+            <div style="text-align:center;">
+                <a href="#top" style="color:#ffffff;font-size:1.2em;">Return to top</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 id="mod10">Unit 10: </h2>
+
+
+            <div style="text-align:center;">
+                <a href="#top" style="color:#ffffff;font-size:1.2em;">Return to top</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 id="mod11">Unit 11: </h2>
+
+
+            <div style="text-align:center;">
+                <a href="#top" style="color:#ffffff;font-size:1.2em;">Return to top</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 id="mod12">Unit 12: </h2>
+
+
+            <div style="text-align:center;">
+                <a href="#top" style="color:#ffffff;font-size:1.2em;">Return to top</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 id="mod13">Unit 13: </h2>
+
+
+            <div style="text-align:center;">
+                <a href="#top" style="color:#ffffff;font-size:1.2em;">Return to top</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 id="mod14">Unit 14: </h2>
+
+
+            <div style="text-align:center;">
+                <a href="#top" style="color:#ffffff;font-size:1.2em;">Return to top</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 id="mod15">Unit 15: </h2>
+
+
+            <div style="text-align:center;">
+                <a href="#top" style="color:#ffffff;font-size:1.2em;">Return to top</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 id="mod16">Unit 16: </h2>
+
+
+            <div style="text-align:center;">
+                <a href="#top" style="color:#ffffff;font-size:1.2em;">Return to top</a>
+            </div>
+        </div>
+
+    </main>
 
 </body>
-
-</html>
